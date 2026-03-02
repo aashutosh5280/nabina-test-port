@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nabina Rana Bhat | Actor & Storyteller</title>
+    <meta name="description" content="Official portfolio of Nabina Rana Bhat - Actor, Performer, and Storyteller. Watch showreels, explore gallery, and discover artistic journey.">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Nabina Rana Bhat | Actor & Storyteller">
+    <meta property="og:description" content="Aspiring actor dedicated to authentic storytelling through film, theatre, and movement.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nabinaranabhat.com">
+
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎭</text></svg>">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">Nabina <span>Rana Bhat</span></a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Connect</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="hero-subtitle animate-fade-up">Aspiring Actor</p>
+                    <h1 class="hero-title animate-fade-up animate-delay-1">
+                        <span class="gradient-text">Nabina</span><br>
+                        <span class="gradient-text">Rana Bhat</span>
+                    </h1>
+                    <p class="hero-tagline animate-fade-up animate-delay-2">
+                        Breathing life into stories that <span class="highlight">shake hearts</span>
+                    </p>
+                    <div class="hero-buttons animate-fade-up animate-delay-3">
+                        <a href="#work" class="btn btn-primary">
+                            <i class="fas fa-play-circle"></i> Watch Showreel
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            <i class="fas fa-paper-plane"></i> Connect
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image animate-fade-in">
+                    <div class="image-frame">
+                        <div class="image-placeholder portrait">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="award-badge">
+                            <i class="fas fa-trophy"></i>
+                            <span>Acting Star<br>Season 1 Winner</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#about" class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="image-frame">
+                        <div class="image-placeholder">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3 class="cinematic-heading">The Art of Emotional Truth</h3>
+                    <p>Theatre raised me, but my dreams stretch beyond the stage — into film, movement, and everything in between. I am a performer who feels most alive under the spotlight, using acting as a way to explore the depths of the human soul.</p>
+                    <p>My mission is to connect with audiences through authentic, raw emotion. Whether it's a powerful monologue or a subtle film role, I believe in stories that matter — stories that shake hearts and stir minds.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">Theatre Productions</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">8</span>
+                            <span class="stat-label">Short Films</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">4</span>
+                            <span class="stat-label">Awards</span>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-text">
+                        <i class="fas fa-file-pdf"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Section with Filters -->
+    <section id="work" class="work-section">
+        <div class="container">
+            <h2 class="section-title">Featured <span class="gradient-text">Work</span></h2>
+            
+            <!-- Category Filters -->
+            <div class="filter-container">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="theatre">Theatre</button>
+                <button class="filter-btn" data-filter="film">Short Films</button>
+                <button class="filter-btn" data-filter="monologue">Monologues</button>
+                <button class="filter-btn" data-filter="movement">Movement</button>
+                <button class="filter-btn" data-filter="acting star">Acting Star</button>
+            </div>
+
+            <!-- Projects Grid with YouTube Videos -->
+            <div class="work-grid" id="workGrid">
+                <!-- Theatre -->
+                <div class="work-card" data-category="theatre">
+                    <div class="video-container" data-video-id="dQw4w9WgXcQ">
+                        <div class="video-thumbnail">
+                            <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/hqdefault.jpg" alt="The Last Light" loading="lazy">
+                            <div class="play-button">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="video-player" style="display: none;">
+                            <iframe src="" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="work-info">
+                        <h3>The Last Light</h3>
+                        <span class="work-category">Theatre</span>
+                        <p>A powerful stage play about hope in darkness. Performed at National Theatre Festival 2023.</p>
+                    </div>
+                </div>
+
+                <!-- Film -->
+                <div class="work-card" data-category="film">
+                    <div class="video-container" data-video-id="dQw4w9WgXcQ">
+                        <div class="video-thumbnail">
+                            <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/hqdefault.jpg" alt="Urban Dreams" loading="lazy">
+                            <div class="play-button">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="video-player" style="display: none;">
+                            <iframe src="" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="work-info">
+                        <h3>Urban Dreams</h3>
+                        <span class="work-category">Short Film</span>
+                        <p>Modern story of urban isolation and the search for genuine connection.</p>
+                    </div>
+                </div>
+
+                <!-- Monologue -->
+                <div class="work-card" data-category="monologue">
+                    <div class="video-container" data-video-id="dQw4w9WgXcQ">
+                        <div class="video-thumbnail">
+                            <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/hqdefault.jpg" alt="Silent Echoes" loading="lazy">
+                            <div class="play-button">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="video-player" style="display: none;">
+                            <iframe src="" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="work-info">
+                        <h3>Silent Echoes</h3>
+                        <span class="work-category">Monologue</span>
+                        <p>A solo performance exploring grief through minimal dialogue and raw expression.</p>
+                    </div>
+                </div>
+
+                <!-- Movement -->
+                <div class="work-card" data-category="movement">
+                    <div class="video-container" data-video-id="dQw4w9WgXcQ">
+                        <div class="video-thumbnail">
+                            <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/hqdefault.jpg" alt="Whispers of Wind" loading="lazy">
+                            <div class="play-button">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="video-player" style="display: none;">
+                            <iframe src="" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="work-info">
+                        <h3>Whispers of Wind</h3>
+                        <span class="work-category">Movement</span>
+                        <p>Physical theatre combining contemporary dance with dramatic storytelling.</p>
+                    </div>
+                </div>
+
+                <!-- Theatre 2 -->
+                <div class="work-card" data-category="theatre">
+                    <div class="video-container" data-video-id="dQw4w9WgXcQ">
+                        <div class="video-thumbnail">
+                            <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/hqdefault.jpg" alt="Broken Mirror" loading="lazy">
+                            <div class="play-button">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="video-player" style="display: none;">
+                            <iframe src="" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="work-info">
+                        <h3>Broken Mirror</h3>
+                        <span class="work-category">Theatre</span>
+                        <p>An intense exploration of identity and self-perception.</p>
+                    </div>
+                </div>
+
+                <!-- Film 2 -->
+                <div class="work-card" data-category="film">
+                    <div class="video-container" data-video-id="dQw4w9WgXcQ">
+                        <div class="video-thumbnail">
+                            <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/hqdefault.jpg" alt="Echo Chamber" loading="lazy">
+                            <div class="play-button">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="video-player" style="display: none;">
+                            <iframe src="" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="work-info">
+                        <h3>Echo Chamber</h3>
+                        <span class="work-category">Short Film</span>
+                        <p>Experimental film about digital connectivity and human disconnect.</p>
+                    </div>
+                </div>
+
+                 <!-- Acting Star-->
+                <div class="work-card" data-category="acting star">
+                    <div class="video-container" data-video-id="AMrYkwTaNq8">
+                        <div class="video-thumbnail">
+                            <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/hqdefault.jpg" alt="Echo Chamber" loading="lazy">
+                            <div class="play-button">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="video-player" style="display: none;">
+                            <iframe src="" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="work-info">
+                        <h3>Acting Star || Grand Finale</h3>
+                        <span class="work-category">Acting Star</span>
+                        <p>Acting Star, the ultimate acting competition that turns raw talent into shining stars! </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Gallery Section with Stories -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <h2 class="section-title">Photo <span class="gradient-text">Gallery</span></h2>
+            <p class="section-subtitle">Each image holds a story — a moment of transformation captured in time</p>
+
+            <div class="gallery-grid" id="galleryGrid">
+                <!-- Gallery Item 1 -->
+                <div class="gallery-item" data-id="1">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-camera"></i>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>The Awakening</h3>
+                            <p>Backstage, moments before stepping on stage</p>
+                        </div>
+                    </div>
+                    <!-- Hidden story for lightbox -->
+                    <div class="gallery-story-content" style="display: none;">
+                        <h4>The Awakening</h4>
+                        <span class="gallery-cat">Backstage</span>
+                        <p>Behind the curtains, seconds before becoming someone else. The quiet anticipation, the deep breath before the plunge into character. This moment captures the transition from Nabina to the role — a sacred ritual before every performance.</p>
+                        <p class="story-quote">"In the silence before the lights, the character begins to breathe."</p>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 2 -->
+                <div class="gallery-item" data-id="2">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-camera"></i>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Urban Solitude</h3>
+                            <p>Finding character in city corners</p>
+                        </div>
+                    </div>
+                    <div class="gallery-story-content" style="display: none;">
+                        <h4>Urban Solitude</h4>
+                        <span class="gallery-cat">Street Photography</span>
+                        <p>Every alley, every shadow holds a story. This shoot was about finding the character in the city's forgotten spaces — the loneliness, the hope, the quiet moments of being alone in a crowd.</p>
+                        <p class="story-quote">"The city becomes a character itself when you learn to listen."</p>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 3 -->
+                <div class="gallery-item" data-id="3">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-camera"></i>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Echoes of Tradition</h3>
+                            <p>Classical roots, contemporary expression</p>
+                        </div>
+                    </div>
+                    <div class="gallery-story-content" style="display: none;">
+                        <h4>Echoes of Tradition</h4>
+                        <span class="gallery-cat">Cultural</span>
+                        <p>A tribute to the classical training that shaped my foundation. This series explores the dance between heritage and modernity — how ancient stories find new life through contemporary eyes.</p>
+                        <p class="story-quote">"Tradition is not the worship of ashes, but the preservation of fire."</p>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 4 -->
+                <div class="gallery-item" data-id="4">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-camera"></i>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Silent Dialogue</h3>
+                            <p>Stories told through eyes alone</p>
+                        </div>
+                    </div>
+                    <div class="gallery-story-content" style="display: none;">
+                        <h4>Silent Dialogue</h4>
+                        <span class="gallery-cat">Portrait</span>
+                        <p>When words fail, the body speaks. This portrait series explores the power of silence in performance — the emotions that live in a glance, a gesture, a pause.</p>
+                        <p class="story-quote">"The most powerful lines are often the ones unspoken."</p>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 5 -->
+                <div class="gallery-item" data-id="5">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-camera"></i>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Dance of Shadows</h3>
+                            <p>Light and darkness in movement</p>
+                        </div>
+                    </div>
+                    <div class="gallery-story-content" style="display: none;">
+                        <h4>Dance of Shadows</h4>
+                        <span class="gallery-cat">Movement</span>
+                        <p>A study in contrast — light versus shadow, motion versus stillness. These images capture the physical poetry of movement, where the body becomes a brush painting stories in space.</p>
+                        <p class="story-quote">"In every shadow, a story hides."</p>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 6 -->
+                <div class="gallery-item" data-id="6">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-camera"></i>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Monologue in Rain</h3>
+                            <p>Raw emotion meets nature's elements</p>
+                        </div>
+                    </div>
+                    <div class="gallery-story-content" style="display: none;">
+                        <h4>Monologue in Rain</h4>
+                        <span class="gallery-cat">Dramatic</span>
+                        <p>Some of the most honest performances happen when the world doesn't cooperate. This impromptu shoot in the rain captured something raw — when tears blend with raindrops, truth emerges.</p>
+                        <p class="story-quote">"Let the storm become part of the story."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Lightbox Modal for Gallery Stories -->
+        <div id="galleryLightbox" class="lightbox">
+            <div class="lightbox-content">
+                <button class="lightbox-close" id="lightboxClose">
+                    <i class="fas fa-times"></i>
+                </button>
+                <div class="lightbox-body">
+                    <div class="lightbox-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-camera"></i>
+                        </div>
+                    </div>
+                    <div class="lightbox-story-container">
+                        <h2 id="lightboxTitle"></h2>
+                        <span id="lightboxCategory" class="lightbox-category"></span>
+                        <p id="lightboxDescription"></p>
+                        <div id="lightboxQuote" class="lightbox-quote"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">Skills & <span class="gradient-text">Talents</span></h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fas fa-mask"></i>
+                    <h3>Acting Techniques</h3>
+                    <p>Meisner • Stanislavski • Classical • Contemporary</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-language"></i>
+                    <h3>Languages</h3>
+                    <p>English (Fluent) • Hindi (Fluent) • Nepali (Native)</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-music"></i>
+                    <h3>Dance</h3>
+                    <p>Contemporary • Basic Kathak • Movement Theatre</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-microphone"></i>
+                    <h3>Voice</h3>
+                    <p>Projection • Modulation • Accent Work • Voice-over</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-fist-raised"></i>
+                    <h3>Stage Combat</h3>
+                    <p>Unarmed • Basic Sword • Falls & Rolls</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-pen-fancy"></i>
+                    <h3>Script Analysis</h3>
+                    <p>Character Breakdown • Subtext • Scene Study</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards Section -->
+    <section class="awards-section">
+        <div class="container">
+            <h2 class="section-title">Recognition & <span class="gradient-text">Awards</span></h2>
+            <div class="awards-grid">
+                <div class="award-card">
+                    <span class="award-year">2023</span>
+                    <h3>Acting Star – Season 1</h3>
+                    <p class="award-role">Winner</p>
+                    <p>National acting competition with 500+ participants</p>
+                </div>
+                <div class="award-card">
+                    <span class="award-year">2022</span>
+                    <h3>Best Monologue Performance</h3>
+                    <p class="award-role">Award Winner</p>
+                    <p>International Theatre Festival, New Delhi</p>
+                </div>
+                <div class="award-card">
+                    <span class="award-year">2021</span>
+                    <h3>Rising Talent Award</h3>
+                    <p class="award-role">Recipient</p>
+                    <p>Youth Theatre Federation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Connect Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Let's <span class="gradient-text">Connect</span></h2>
+            <div class="social-grid">
+                <a href="https://www.instagram.com/nabina_rb?igsh=MTl5ZnJxbGdlZnlxbA==" class="social-card" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                    <h3>Instagram</h3>
+                    <span>@nabina_rb</span>
+                </a>
+                <a href="https://www.tiktok.com/@nabina_rb?_r=1&_t=ZS-94LtkWpDYBQ" class="social-card" target="_blank">
+                    <i class="fab fa-tiktok"></i>
+                    <h3>Tiktok</h3>
+                    <span>@nabina_rb</span>
+                </a>
+                <a href="https://www.linkedin.com/in/nabina-ranabhat25?utm_source=share_via&utm_content=profile&utm_medium=member_ios" class="social-card" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                    <h3>LinkedIn</h3>
+                    <span>/in/nabina-ranabhat25</span>
+                </a>
+                <a href="mailto:hello@nabinaranabhat.com" class="social-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <span>nabina.ranabhat25@gmail.com</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© <span id="currentYear"></span> Nabina Rana Bhat. All rights reserved.</p>
+            <p class="footer-quote">"The purpose of art is washing the dust of daily life off our souls." — Picasso</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+nabina-rana-bhat-portfolio/
+│
+├── index.html
+├── style.css
+├── script.js
+│
+├── assets/
+│   ├── images/
+│   │   ├── hero/
+│   │   │   ├── nabina-portrait.jpg
+│   │   │   └── nabina-hero-bg.jpg
+│   │   │
+│   │   ├── about/
+│   │   │   └── nabina-about.jpg
+│   │   │
+│   │   ├── work/
+│   │   │   ├── theatre-last-light.jpg
+│   │   │   ├── film-urban-dreams.jpg
+│   │   │   ├── monologue-silent-echoes.jpg
+│   │   │   └── movement-whispers.jpg
+│   │   │
+│   │   ├── gallery/
+│   │   │   ├── gallery-awakening.jpg
+│   │   │   ├── gallery-urban-solitude.jpg
+│   │   │   ├── gallery-tradition.jpg
+│   │   │   ├── gallery-silent-dialogue.jpg
+│   │   │   ├── gallery-shadows.jpg
+│   │   │   └── gallery-rain.jpg
+│   │   │
+│   │   └── social/
+│   │       ├── og-image.jpg
+│   │       └── favicon.ico
+│   │
+│   └── videos/
+│       ├── showreel.mp4
+│       └── behind-the-scenes.mp4
+│
+├── fonts/
+│   └── (if using local fonts instead of Google Fonts)
+│
+└── README.md
