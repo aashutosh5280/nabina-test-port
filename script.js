@@ -130,23 +130,41 @@ document.querySelectorAll('.video-container').forEach(container => {
 // ===== Gallery Lightbox =====
 galleryItems.forEach(item => {
     item.addEventListener('click', () => {
+        // Get the image source
+        const imgElement = item.querySelector('img');
+        const imgSrc = imgElement ? imgElement.src : '';
+        const imgAlt = imgElement ? imgElement.alt : 'Gallery image';
+        
+        // Get the story content
         const storyContent = item.querySelector('.gallery-story-content');
+        
         if (storyContent) {
             const title = storyContent.querySelector('h4')?.textContent || '';
             const category = storyContent.querySelector('.gallery-cat')?.textContent || '';
             const description = storyContent.querySelector('p')?.textContent || '';
             const quote = storyContent.querySelector('.story-quote')?.textContent || '';
             
+            // Update title and story
             lightboxTitle.textContent = title;
             lightboxCategory.textContent = category;
             lightboxDescription.textContent = description;
             
+            // Update quote
             if (quote) {
                 lightboxQuote.innerHTML = `<i class="fas fa-quote-left"></i> ${quote}`;
             } else {
                 lightboxQuote.innerHTML = '';
             }
             
+            // IMPORTANT: Update the image
+            if (imgSrc) {
+                lightboxImage.innerHTML = `<img src="${imgSrc}" alt="${imgAlt}" class="lightbox-image-img">`;
+            } else {
+                // Fallback if no image
+                lightboxImage.innerHTML = '<div class="image-placeholder"><i class="fas fa-image"></i></div>';
+            }
+            
+            // Show lightbox
             lightbox.classList.add('active');
             document.body.style.overflow = 'hidden';
         }
@@ -161,7 +179,7 @@ if (lightboxClose) {
     });
 }
 
-// Close lightbox when clicking outside
+// Close when clicking outside the content
 lightbox.addEventListener('click', (e) => {
     if (e.target === lightbox) {
         lightbox.classList.remove('active');
